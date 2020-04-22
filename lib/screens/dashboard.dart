@@ -15,8 +15,9 @@ class Dashboard extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Container(
-                color: Theme.of(context).accentColor,
-                child: Image.asset("images/bytebank_logo.png")),
+              color: Theme.of(context).accentColor,
+              child: Image.asset("assets/images/bytebank_logo.png"),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),

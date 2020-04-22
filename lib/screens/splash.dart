@@ -21,7 +21,7 @@ class _SplashState extends State<Splash> {
           color: Colors.white,
         ),
       ),
-      image: new Image.asset("images/bytebank_logo.png"),
+      image: new Image.asset("assets/images/bytebank_logo.png"),
       backgroundColor: Theme.of(context).primaryColor,
       styleTextUnderTheLoader: new TextStyle(),
       photoSize: 150.0,
